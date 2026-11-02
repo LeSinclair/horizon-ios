@@ -10,8 +10,13 @@ Minecraft: Java Edition 26.3 rewritten in Rust by **Ludovic Marie and the Horizo
 
 ## What's in it
 
-- Touch controls (joystick or D-pad, Bedrock-style buttons, sprint, chat buttons) and controller support
-- An in-app launcher: instances with their own settings and mods, shared worlds, Horizon's mod list
+- Touch controls (joystick or D-pad, Bedrock-style buttons, sprint, chat buttons) and controller support.
+  **Customize Layout** (Options › Controls › Touch Controls): drag and resize every button, with separate
+  layouts for walking, flying, swimming, riding and inventories
+- An in-app launcher: Microsoft sign-in, game files from Mojang, instances with their own settings and
+  mods, shared worlds, Horizon's mod list with each mod's description
+- Smooth touch scrolling, sliding over slots to split a stack evenly, an Iris-style shader pack screen,
+  animations when leaving a server and closing the game
 - 41 built-in mods from [Horizon's mod registry](https://github.com/horizon-rust/horizon-mods), each by its
   own authors (list below). Their keys work on touch: the **Mods** button at the top opens Mod Controls,
   where any mod key can be pressed or pinned as an on-screen button. Some start switched off on phones
@@ -34,12 +39,20 @@ Needs iOS 16 or later.
 
 ## Game files (needed once)
 
-1. On a computer, install the [Horizon launcher](https://playhorizon.dev), sign in with the Microsoft
-   account that owns Minecraft: Java Edition, and play Horizon once. The launcher prepares the game files
-   in a folder named `26.3` (under `.local/horizon-client/` in its version folder).
-2. Copy **everything inside** that `26.3` folder to your iPhone, into
-   **Files › On My iPhone › Horizon › resources** (open the app once first so the folder exists).
-3. Open Horizon and press Play.
+Open Horizon: the launcher starts on its **Setup** tab.
+
+1. **Sign in** with the Microsoft account that owns Minecraft: Java Edition (the app checks it does).
+2. **Download**: textures, sounds, languages and world data (about 550 MB) come straight from Mojang's
+   servers, as with the official launcher. Use Wi-Fi.
+3. **Files made on a computer** (about 100 MB): some of Horizon's files can only be made by running
+   Minecraft's own Java code, which iPhones can't do. On a computer, install the
+   [Horizon launcher](https://playhorizon.dev), sign in and play Horizon once: it prepares a folder named
+   `26.3` (under `.local/horizon-client/` in its version folder). Copy **everything in it except
+   `assets` and `data`** into **Files › On My iPhone › Horizon › resources**. (Copying the whole folder
+   works too, and skips step 2.)
+
+Then press Play. Nothing from Minecraft is in this app or this repository: each phone gets its own
+files from its own account.
 
 ## Credits and licenses
 

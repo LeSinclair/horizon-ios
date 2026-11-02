@@ -9,11 +9,19 @@
       "bundleIdentifier": "dev.playhorizon.ios.unofficial.horizon",
       "developerName": "Horizon contributors (iOS port: LeSinclair)",
       "subtitle": "Unofficial iPhone/iPad port of Horizon",
-      "localizedDescription": "An unofficial iPhone and iPad port of Horizon, Minecraft: Java Edition 26.3 rewritten in Rust by Ludovic Marie and the Horizon contributors (MIT). Touch controls, an in-app launcher with instances and Horizon's mod list.\n\nNeeds your own Minecraft: Java Edition: prepare the game files with the Horizon launcher on a computer and copy them into Files › Horizon › resources. This app contains no Minecraft files.\n\nBuilt-in mods (41), each by its own authors and under its own license: AppleSkin, AppleSkin, Armor Status, Astral Cruiser, The Basic HUD, BiomeCompass, Blockscope, Carry Block, ChatHeads, Classic Zoom, Coordinates HUD, Crosshair Indicator, Distant Horizons for Horizon Client, Eating Animation, Enchantment Hints, Fair Freecam, FPS Counter, Freecam, Freecam+, Freelook, MoreGamma, Fullbright, Inventory Profiles, Item New, JEI for Horizon, Keystrokes, Light Overlay, LookAt, Minimap, Mouse Tricks, Recipes, RightClickHarvest, Serverify, ShulkerPeek, SmartF3, Status Effect HUD, Toggle Sprint, TreeFall, Veinminer, X To Xray, Zoom. Full credits and licenses: Files › Horizon › Credits.\n\nNot an official Minecraft product. Not approved by or associated with Mojang or Microsoft.",
+      "localizedDescription": "An unofficial iPhone and iPad port of Horizon, Minecraft: Java Edition 26.3 rewritten in Rust by Ludovic Marie and the Horizon contributors (MIT). Touch controls, an in-app launcher with instances and Horizon's mod list.\n\nNeeds your own Minecraft: Java Edition. Sign in with your Microsoft account in the launcher's Setup tab: once it owns the game, textures, sounds and languages download straight from Mojang. The files only Minecraft's Java code can make come from a computer with the Horizon launcher (Setup explains how). This app contains no Minecraft files.\n\nBuilt-in mods (41), each by its own authors and under its own license: AppleSkin, AppleSkin, Armor Status, Astral Cruiser, The Basic HUD, BiomeCompass, Blockscope, Carry Block, ChatHeads, Classic Zoom, Coordinates HUD, Crosshair Indicator, Distant Horizons for Horizon Client, Eating Animation, Enchantment Hints, Fair Freecam, FPS Counter, Freecam, Freecam+, Freelook, MoreGamma, Fullbright, Inventory Profiles, Item New, JEI for Horizon, Keystrokes, Light Overlay, LookAt, Minimap, Mouse Tricks, Recipes, RightClickHarvest, Serverify, ShulkerPeek, SmartF3, Status Effect HUD, Toggle Sprint, TreeFall, Veinminer, X To Xray, Zoom. Full credits and licenses: Files › Horizon › Credits.\n\nNot an official Minecraft product. Not approved by or associated with Mojang or Microsoft.",
       "iconURL": "https://raw.githubusercontent.com/LeSinclair/horizon-ios/main/icon.png",
       "tintColor": "9a86ff",
       "category": "games",
       "versions": [
+        {
+          "version": "0.3.0",
+          "date": "2026-11-02",
+          "localizedDescription": "Sign in and download the game files from Mojang in the launcher's Setup tab. Touch layout editor (move and resize buttons, per walking/flying/swimming/riding/inventory). Mods hear the joystick (freecams fly with it, Keystrokes lights up). Smooth scrolling, slide to split stacks, Iris-style shader pack screen, leave-server and quit animations, mod descriptions in the launcher, Quit back to the launcher and into any instance.",
+          "downloadURL": "https://github.com/LeSinclair/horizon-ios/releases/download/v0.3.0/Horizon-0.3.0.ipa",
+          "size": 24851636,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.2.0",
           "date": "2026-11-02",
