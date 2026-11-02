@@ -1,0 +1,36 @@
+{
+  "name": "Horizon for iPhone",
+  "identifier": "dev.playhorizon.ios.unofficial",
+  "subtitle": "Minecraft: Java Edition 26.3 rewritten in Rust, on iPhone and iPad",
+  "website": "https://github.com/LeSinclair/horizon-ios",
+  "apps": [
+    {
+      "name": "Horizon",
+      "bundleIdentifier": "dev.playhorizon.ios.unofficial.horizon",
+      "developerName": "Horizon contributors (iOS port: LeSinclair)",
+      "subtitle": "Unofficial iPhone/iPad port of Horizon",
+      "localizedDescription": "An unofficial iPhone and iPad port of Horizon, Minecraft: Java Edition 26.3 rewritten in Rust by Ludovic Marie and the Horizon contributors (MIT). Touch controls, an in-app launcher with instances and Horizon's mod list.\n\nNeeds your own Minecraft: Java Edition: prepare the game files with the Horizon launcher on a computer and copy them into Files › Horizon › resources. This app contains no Minecraft files.\n\nBuilt-in mods (41), each by its own authors and under its own license: AppleSkin, AppleSkin, Armor Status, Astral Cruiser, The Basic HUD, BiomeCompass, Blockscope, Carry Block, ChatHeads, Classic Zoom, Coordinates HUD, Crosshair Indicator, Distant Horizons for Horizon Client, Eating Animation, Enchantment Hints, Fair Freecam, FPS Counter, Freecam, Freecam+, Freelook, MoreGamma, Fullbright, Inventory Profiles, Item New, JEI for Horizon, Keystrokes, Light Overlay, LookAt, Minimap, Mouse Tricks, Recipes, RightClickHarvest, Serverify, ShulkerPeek, SmartF3, Status Effect HUD, Toggle Sprint, TreeFall, Veinminer, X To Xray, Zoom. Full credits and licenses: Files › Horizon › Credits.\n\nNot an official Minecraft product. Not approved by or associated with Mojang or Microsoft.",
+      "iconURL": "https://raw.githubusercontent.com/LeSinclair/horizon-ios/main/icon.png",
+      "tintColor": "9a86ff",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-11-02",
+          "localizedDescription": "Horizon 0.2.0 for iPhone and iPad.",
+          "downloadURL": "https://github.com/LeSinclair/horizon-ios/releases/download/v0.2.0/Horizon-0.2.0.ipa",
+          "size": 24746841,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Horizon finds and joins games on your local network."
+        }
+      }
+    }
+  ],
+  "news": [],
+  "iconURL": "https://raw.githubusercontent.com/LeSinclair/horizon-ios/main/icon.png"
+}
